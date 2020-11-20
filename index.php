@@ -1,22 +1,22 @@
 <!-- Code -->
 <?php
 
-    include '_conexao.php';
+    //include '_conexao.php';
 
 ?>
 <!-- Code End -->
 
 <!-- Head -->
 <?php
-    include 'head.php';
-    $page = #;
+    include 'header.php';
+    $page = 1;
     include 'navbar.php'; 
 ?>
 <!-- Head End -->
 
 <!-- Body -->
 <div>
-<h1>Site E-Commerce Werner!!!</h1>
+<h1>Site E-Commerce Werner!!! 1234</h1>
 </div>
 <!-- Body End -->
 

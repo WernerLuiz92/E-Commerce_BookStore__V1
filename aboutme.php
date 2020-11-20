@@ -8,7 +8,7 @@
 
 <!-- Head -->
 <?php
-    include 'head.php';
+    include 'header.php';
     $page = 8;
     include 'navbar.php'; 
 ?>
@@ -20,7 +20,7 @@
         <div class="row">
             <div class="col-4" style="margin-top: 45px;">
                 <center>
-                    <img src="imagens/perfil.jpg" alt="Werner Luiz Gottschalt" style="height: 85%; width: 85%;">
+                    <img src="images/perfil.jpg" alt="Werner Luiz Gottschalt" style="height: 85%; width: 85%;">
                 </center>
             </div>
             <div class="col-8" style="margin-top: 20px;">

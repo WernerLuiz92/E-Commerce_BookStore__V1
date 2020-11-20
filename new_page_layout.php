@@ -1,14 +1,14 @@
 <!-- Code -->
 <?php
 
-    include '_conexao.php';
+    //include '_conexao.php';
 
 ?>
 <!-- Code End -->
 
 <!-- Head -->
 <?php
-    include 'head.php';
+    include 'header.php';
     $page = #;
     include 'navbar.php'; 
 ?>
