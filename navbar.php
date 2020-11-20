@@ -14,16 +14,16 @@
                 <a class="nav-link dropdown-toggle <?php if ($page == 2 || $page == 3 || $page == 4){echo 'active';} ?>"
                     href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                     aria-expanded="false">
-                    Cadastros
+                    Produtos
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item <?php if ($page == 2){echo 'active';} ?>"
-                        href="cadastro_produto.php">Produtos</a>
+                        href="#">Cervejas</a>
                     <a class="dropdown-item <?php if ($page == 3){echo 'active';} ?>"
-                        href="cadastro_categoria.php">Categorias</a>
+                        href="#">Canecas</a>
                     <!--<div class="dropdown-divider"></div>-->
                     <a class="dropdown-item <?php if ($page == 4){echo 'active';} ?>"
-                        href="cadastro_fornecedor.php">Fornecedores</a>
+                        href="#">Acessórios</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
