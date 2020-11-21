@@ -10,13 +10,17 @@
 <?php
     include 'header.php';
     $page = 1;
+    include 'topbar.php';
     include 'navbar.php'; 
 ?>
 <!-- Head End -->
 
 <!-- Body -->
 <div>
-<h1>Site E-Commerce Werner!!! 1234</h1>
+    <div class="container" style="margin-top: 20px;">
+        <h2>Confira as nossas novidades:</h2>
+
+    </div>
 </div>
 <!-- Body End -->
 
