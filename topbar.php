@@ -10,8 +10,10 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <form class="form-inline" style="margin-right: 35px; margin-left: 5px;">
-            <input class="form-control mr-sm-2" type="search" placeholder="O que você procura?" aria-label="Search" style="width: 500px;">
-            <button class="btn btn-sm btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i> Buscar</button>
+            <input class="form-control mr-sm-2" type="search" placeholder="O que você procura?" aria-label="Search"
+                style="width: 500px;">
+            <button class="btn btn-sm btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i>
+                Buscar</button>
         </form>
         <form class="form-inline" action="_login.php" method="post" style="position: absolute; right: 10px;">
             <div class="input-group" style="width: 150px;">
@@ -28,7 +30,11 @@
                 <input type="password" class="form-control" name="pass" placeholder="Senha" aria-label="Username"
                     aria-describedby="pass">
             </div>
-            <button class="btn btn-sm btn-outline-secondary" type="submit" style="margin-left: 5px;">Login</button>
+            <div>
+                <button class="btn btn btn-outline-success" type="submit" style="margin-left: 5px;">Login</button>
+                <a class="btn btn-sm btn-outline-secondary" href="cadastro_usuario.php" role="button"
+                    style="margin-left: 5px;">Cadastrar</a>
+            </div>
         </form>
     </div>
 </nav>
