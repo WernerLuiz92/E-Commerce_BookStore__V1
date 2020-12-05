@@ -50,5 +50,9 @@
     {
         "id_gen": "13",
         "nome_gen": "Thriller"
+    },
+    {
+        "id_gen": "14",
+        "nome_gen": "Outros"
     }
 ]
