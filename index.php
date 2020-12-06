@@ -1,7 +1,8 @@
+<?php include '_session.php'; ?>
 <?php
     $page = 1;
 
-    //include '_conexao.php';
+    include '_conexao.php';
 
     include 'header.php';
     include 'topbar.php';
