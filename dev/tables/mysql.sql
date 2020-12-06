@@ -32,9 +32,7 @@ CREATE TABLE `book_store`.`book` (
     `coment2_bk` text COLLATE utf8_swedish_ci,
     `coment3_bk` text COLLATE utf8_swedish_ci,
     `sinopse_bk` text COLLATE utf8_swedish_ci NOT NULL,
-    PRIMARY KEY (`id_bk`),
-    UNIQUE KEY `isbn_bk_UNIQUE` (`isbn_bk`),
-    UNIQUE KEY `ean_bk_UNIQUE` (`ean_bk`)
+    PRIMARY KEY (`id_bk`)
 );
 
 CREATE TABLE `book_store`.`genre_book` (
@@ -42,30 +40,3 @@ CREATE TABLE `book_store`.`genre_book` (
     `id_bk` int unsigned NOT NULL,
     PRIMARY KEY (`id_gen`,`id_bk`)
 );
-
-ALTER TABLE `book_store`.`genre_book` 
-    ADD CONSTRAINT `genre_book_genre`
-        FOREIGN KEY (`id_gen`)
-        REFERENCES `book_store`.`genre` (`id_gen`)
-            ON DELETE RESTRICT
-            ON UPDATE CASCADE;
-
-ALTER TABLE `book_store`.`genre_book` 
-    ADD INDEX `genre_book_book_idx` (`id_bk` ASC) VISIBLE;
-
-ALTER TABLE `book_store`.`genre_book` 
-    ADD CONSTRAINT `genre_book_book`
-        FOREIGN KEY (`id_bk`)
-        REFERENCES `book_store`.`book` (`id_bk`)
-            ON DELETE RESTRICT
-            ON UPDATE CASCADE;
-
-ALTER TABLE `book_store`.`book` 
-    ADD INDEX `book_author_idx` (`id_aut_bk` ASC) VISIBLE;
-
-ALTER TABLE `book_store`.`book` 
-    ADD CONSTRAINT `book_author`
-        FOREIGN KEY (`id_aut_bk`)
-        REFERENCES `book_store`.`author` (`id_aut`)
-            ON DELETE RESTRICT
-            ON UPDATE CASCADE;
