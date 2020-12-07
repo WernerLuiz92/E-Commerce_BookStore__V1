@@ -1,15 +1,14 @@
 <?php include '_session.php'; ?>
-
 <?php
+    $page = #;
+    $relpath = "";
 
     include '_conexao.php';
 
-?>
+    include 'header.php';
+    include 'topbar.php';
+    include 'navbar.php';
 
-<?php
-    include 'head.php';
-    $page = #;
-    include 'navbar.php'; 
 ?>
 
 <div>

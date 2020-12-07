@@ -1,20 +1,16 @@
-<!-- Code -->
-<!--?php
+<?php include '_session.php'; ?>
+<?php
+    $page = 8;
+    $relpath = "";
 
     include '_conexao.php';
 
-?-->
-<!-- Code End -->
-
-<!-- Head -->
-<?php
     include 'header.php';
-    $page = 8;
-    include 'navbar.php'; 
-?>
-<!-- Head End -->
+    include 'topbar.php';
+    include 'navbar.php';
 
-<!-- Body -->
+?>
+
 <div>
     <div class="container">
         <div class="row">
@@ -60,10 +56,7 @@
         </div>
     </div>
 </div>
-<!-- Body End -->
 
-<!-- Footer -->
 <?php
     include 'footer.php';
 ?>
-<!-- Footer End -->
