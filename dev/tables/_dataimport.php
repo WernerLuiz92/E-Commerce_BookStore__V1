@@ -9,10 +9,10 @@ $table = $_POST['table'];
 $file = $_FILES['file'];
 $timezone = new DateTimeZone('America/Sao_Paulo');
 $now = new DateTime('now', $timezone);
-$hash = $now->format("YmdHi");
+$hash = $now->format("YmdHis");
 
 $targetdir = "uploads/";
-$targetfile = $targetdir . basename($file['name']) . $hash;
+$targetfile = $targetdir . $hash ."-" . basename($file['name']);
 $uploadOk = 1;
 $fileMoved = 0;
 

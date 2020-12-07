@@ -1,0 +1,58 @@
+[
+    {
+        "id_gen": 1,
+        "nome_gen": "Fantasia"
+    },
+    {
+        "id_gen": 2,
+        "nome_gen": "Ficção"
+    },
+    {
+        "id_gen": 3,
+        "nome_gen": "Ficção Científica"
+    },
+    {
+        "id_gen": 4,
+        "nome_gen": "Jovem"
+    },
+    {
+        "id_gen": 5,
+        "nome_gen": "Literatura Infantil"
+    },
+    {
+        "id_gen": 6,
+        "nome_gen": "Não Ficção"
+    },
+    {
+        "id_gen": 7,
+        "nome_gen": "Policial"
+    },
+    {
+        "id_gen": 8,
+        "nome_gen": "Romance"
+    },
+    {
+        "id_gen": 9,
+        "nome_gen": "Romance de Época"
+    },
+    {
+        "id_gen": 10,
+        "nome_gen": "Romance Histórico"
+    },
+    {
+        "id_gen": 11,
+        "nome_gen": "Romance de Hoje"
+    },
+    {
+        "id_gen": 12,
+        "nome_gen": "Terror"
+    },
+    {
+        "id_gen": 13,
+        "nome_gen": "Thriller"
+    },
+    {
+        "id_gen": 14,
+        "nome_gen": "Outros"
+    }
+]
