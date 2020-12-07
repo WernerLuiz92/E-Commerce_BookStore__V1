@@ -7,9 +7,12 @@ $relpath = "../../";
 
 $table = $_POST['table'];
 $file = $_FILES['file'];
+$timezone = new DateTimeZone('America/Sao_Paulo');
+$now = new DateTime('now', $timezone);
+$hash = $now->format("YmdHi");
 
 $targetdir = "uploads/";
-$targetfile = $targetdir . basename($file['name']);
+$targetfile = $targetdir . basename($file['name']) . $hash;
 $uploadOk = 1;
 $fileMoved = 0;
 
