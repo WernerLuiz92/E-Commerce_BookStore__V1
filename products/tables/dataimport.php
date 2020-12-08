@@ -12,7 +12,7 @@
 ?>
 
 <div>
-    <div class="container" id="tamanhoContainer" style="margin-top: 35px; width: 500px;">
+    <div class="container mb-3" style="margin-top: 35px; width: 500px;">
         <div style="margin-top: 20px;"></div>
         <h4>Importação de dados</h4>
         <form action="_dataimport.php" method="post" enctype="multipart/form-data" style="margin-top: 20px;">
@@ -49,7 +49,7 @@
                     </div>
                 </div>
             </div>
-            <div class="botoes" style="margin-top: 25px; text-align: right; width: 49%; float: right;">
+            <div class="container mt-3" style="text-align: right">
                 <button type="submit" class="btn btn-success btn-sm" name="submit" value="Upload Json"><i
                         class="fas fa-save"></i>&nbsp;Importar</button>
             </div>

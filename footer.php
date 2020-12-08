@@ -1,6 +1,6 @@
-<footer>
-    <div class="container-fluid">
-        <div class="container" style="margin-bottom: 5px;">
+<footer style="margin-top: 35px;">
+    <div class="container position-sticky-bottom">
+        <div class="container-fluid" style="margin-bottom: 5px;">
             <center>
                 <div class="row">
                     <div class="col-sm">
@@ -10,7 +10,7 @@
                         Copyright
                     </div>
                     <div class="col-sm">
-                        <a class="btn btn-sm btn-outline-secondary" href="dev/tables/dataimport.php"
+                        <a class="btn btn-sm btn-outline-secondary" href="products/tables/dataimport.php"
                             role="button">Importar
                             dados</a>
                     </div>
