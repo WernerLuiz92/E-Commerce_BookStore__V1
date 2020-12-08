@@ -12,9 +12,8 @@
 ?>
 
 <div>
-    <div class="container" style="margin-top: 20px;">
-        <h2>Confira as nossas novidades:</h2>
-        <div class="container float-left">
+    <div class="container mt-0">
+        <div class="container">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -42,6 +41,51 @@
                 </a>
             </div>
         </div>
+    </div>
+    <div class="container mt-3">
+        <center>
+            <h4>Confira as nossas novidades:</h4>
+        </center>
+        <center>
+            <div class="row justify-content-around">
+                <?php 
+                $sqlNovidades = "SELECT id_bk, tit_bk, preco_bk, capa_bk, author.nome_aut AS 'aut_bk' FROM book, author WHERE book.id_aut_bk = author.id_aut ORDER BY datalanc_bk DESC LIMIT 9";
+                $buscaNovidades = mysqli_query($conexao, $sqlNovidades);
+
+                while ($arrayNovidades = mysqli_fetch_array($buscaNovidades)) {
+
+                    $id_bk = $arrayNovidades['id_bk'];
+                    $tit_bk = $arrayNovidades['tit_bk'];
+                    $preco_bk = $arrayNovidades['preco_bk'];
+                    $capa_bk = $arrayNovidades['capa_bk'];
+                    $aut_bk = $arrayNovidades['aut_bk']; 
+            ?>
+                <div class="col-4">
+                    <div class="card" style="width: 13rem;">
+                        <img src="products/book/assets/<?php echo $capa_bk; ?>" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <center>
+                                <h5 class="card-title">
+                                    <?php echo $tit_bk; ?>
+                                </h5>
+                                <p class="card-text">
+                                    <?php echo $aut_bk; ?>
+                                </p>
+                            </center>
+                            <div class="row mt-2">
+                                <div class="col-6">
+                                    <?php echo 'R$ '.$preco_bk; ?>
+                                </div>
+                                <div class="col-3">
+                                    <a href="?id=<?php echo $id_bk; ?>" class="btn btn-primary">Ver mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <?php   } ?>
+            </div>
+        </center>
     </div>
 </div>
 
