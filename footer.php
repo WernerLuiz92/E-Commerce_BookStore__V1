@@ -1,16 +1,25 @@
-<div class="container">
-    <nav class="navbar fixed-bottom navbar-light bg-light">
-        <div class="row row-cols-3">
-            <div class="col">Contato:</div>
-            <div class="col">Copyright</div>
-            <div class="col">Desenvolvedor:</div>
-            <div class="col">
-                <a class="btn btn-sm btn-outline-secondary" href="dev/tables/dataimport.php" role="button">Importar
-                    dados</a>
-            </div>
+<footer>
+    <div class="container-fluid">
+        <div class="container" style="margin-bottom: 5px;">
+            <center>
+                <div class="row">
+                    <div class="col-sm">
+                        Contato
+                    </div>
+                    <div class="col-sm">
+                        Copyright
+                    </div>
+                    <div class="col-sm">
+                        <a class="btn btn-sm btn-outline-secondary" href="dev/tables/dataimport.php"
+                            role="button">Importar
+                            dados</a>
+                    </div>
+                </div>
+            </center>
         </div>
-    </nav>
-</div>
+    </div>
+</footer>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
