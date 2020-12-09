@@ -166,13 +166,13 @@
 
 
 <!-- jQuery -->
-<script type="text/javascript" src="<?php echo $relpath;?>MDB/js/jquery.min.js"></script>
+<script type="text/javascript" src="<?php echo $relpath;?>js/jquery.min.js"></script>
 <!-- Bootstrap tooltips -->
-<script type="text/javascript" src="<?php echo $relpath;?>MDB/js/popper.min.js"></script>
+<script type="text/javascript" src="<?php echo $relpath;?>js/popper.min.js"></script>
 <!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="<?php echo $relpath;?>MDB/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="<?php echo $relpath;?>js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
-<script type="text/javascript" src="<?php echo $relpath;?>MDB/js/mdb.min.js"></script>
+<script type="text/javascript" src="<?php echo $relpath;?>js/mdb.min.js"></script>
 
 <!-- Scripts -->
 <script type="text/javascript"></script>
