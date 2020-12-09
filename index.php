@@ -12,6 +12,8 @@
 ?>
 
 <div>
+
+    <!-- Carousel -->
     <div class="container mt-0">
         <div class="container">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -22,13 +24,13 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="assets/banner_1.png" class="d-block w-100" alt="...">
+                        <img src="img/banner_1.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/banner_2.png" class="d-block w-100" alt="...">
+                        <img src="img/banner_2.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/banner_3.png" class="d-block w-100" alt="...">
+                        <img src="img/banner_3.png" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -42,14 +44,17 @@
             </div>
         </div>
     </div>
-    <!--div class="container mt-3">
+    <!-- Carousel -->
+
+    <!-- Lançamentos - Limit 9 -->
+    <div class="container mt-3">
         <center>
             <h4>Confira os últimos lançamentos:</h4>
         </center>
         <center>
             <div class="row justify-content-around">
-                <?php /*
-                $sqlNovidades = "SELECT id_bk, tit_bk, preco_bk, capa_bk, author.nome_aut AS 'aut_bk' FROM book, author WHERE book.id_aut_bk = author.id_aut ORDER BY datalanc_bk DESC LIMIT 30";
+                <?php
+                $sqlNovidades = "SELECT id_bk, tit_bk, preco_bk, capa_bk, author.nome_aut AS 'aut_bk' FROM book, author WHERE book.id_aut_bk = author.id_aut ORDER BY datalanc_bk DESC LIMIT 6";
                 $buscaNovidades = mysqli_query($conexao, $sqlNovidades);
 
                 while ($arrayNovidades = mysqli_fetch_array($buscaNovidades)) {
@@ -62,7 +67,7 @@
             ?>
                 <div class="col-4">
                     <div class="card mt-3" style="width: 16rem;">
-                        <img src="products/book/assets/<?php echo $capa_bk; ?>.png" class="card-img-top" alt="...">
+                        <img src="pages/book/img/<?php echo $capa_bk; ?>.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <center>
                                 <h5 class="card-title">
@@ -77,16 +82,18 @@
                                     <?php echo 'R$ '.$preco_bk; ?>
                                 </div>
                                 <div class="col-3">
-                                    <a href="?id=<?php echo $id_bk; ?>" class="btn btn-primary">Ver mais</a>
+                                    <a href="?id=<?php echo $id_bk; ?>" class="btn btn-primary">Mais</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <?php   } */?>
+                <?php   } ?>
             </div>
         </center>
-    </!--div -->
+    </div>
+    <!-- Lançamentos -->
+
 </div>
 
 <?php

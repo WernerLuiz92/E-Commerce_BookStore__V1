@@ -1,27 +1,5 @@
-<footer style="margin-top: 35px;">
-    <div class="container position-sticky-bottom">
-        <div class="container-fluid" style="margin-bottom: 5px;">
-            <center>
-                <div class="row">
-                    <div class="col-sm">
-                        Contato
-                    </div>
-                    <div class="col-sm">
-                        Copyright
-                    </div>
-                    <div class="col-sm">
-                        <a class="btn btn-sm btn-outline-secondary" href="products/tables/dataimport.php"
-                            role="button">Importar
-                            dados</a>
-                    </div>
-                </div>
-            </center>
-        </div>
-    </div>
-</footer>
-
 <!-- Footer -->
-<footer class="page-footer font-small mdb-color pt-4">
+<footer class="page-footer font-small mdb-color pt-4 mt-4">
 
     <!-- Footer Links -->
     <div class="container text-center text-md-left">
@@ -33,31 +11,10 @@
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                 <h6 class="text-uppercase mb-4 font-weight-bold">BookStore</h6>
                 <p>Este site foi desenvolvido durante as aulas do curso técnico em informática,
-                    na Escola Técnica Estadual 25 de Julho
-                    Ijuí - Rio Grande do Sul
-                    Aluno: Werner Luiz Gottschalt
-                    Professor: Dionatan H. Balboena
-                    T: 324
-                </p>
-            </div>
-            <!-- Grid column -->
-
-            <hr class="w-100 clearfix d-md-none">
-
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
-                <p>
-                    <a href="#!">MDBootstrap</a>
-                </p>
-                <p>
-                    <a href="#!">MDWordPress</a>
-                </p>
-                <p>
-                    <a href="#!">BrandFlow</a>
-                </p>
-                <p>
-                    <a href="#!">Bootstrap Angular</a>
+                    na Escola Técnica Estadual 25 de Julho.</p>
+                <p><b>Aluno:</b> Werner Luiz Gottschalt<br />
+                    <b>Professor:</b> Dionatan H. Balboena<br />
+                    <b>Turma:</b> 324
                 </p>
             </div>
             <!-- Grid column -->
@@ -66,18 +23,18 @@
 
             <!-- Grid column -->
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+                <h6 class="text-uppercase mb-4 font-weight-bold">Links</h6>
                 <p>
-                    <a href="#!">Your Account</a>
+                    <a href="https://escola25dejulho.com.br/">E. T. E. 25 de julho</a>
                 </p>
                 <p>
-                    <a href="#!">Become an Affiliate</a>
+                    <a href="https://escola25dejulho.com.br/tecnico.php?id=1">Técnico em Informática</a>
                 </p>
                 <p>
-                    <a href="#!">Shipping Rates</a>
+                    <a href="https://www.wernergottschalt.com">Meu portfólio</a>
                 </p>
                 <p>
-                    <a href="#!">Help</a>
+                    <a href="<?php echo $relpath;?>aboutme.php">Sobre mim</a>
                 </p>
             </div>
 
@@ -86,18 +43,19 @@
 
             <!-- Grid column -->
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                <h6 class="text-uppercase mb-4 font-weight-bold">Contato</h6>
                 <p>
-                    <i class="fas fa-home mr-3"></i> New York, NY 10012, US
+                    <i class="fas fa-home mr-3"></i>
+                    Rua do Comércio, 1516 - Ijuí / RS
                 </p>
                 <p>
-                    <i class="fas fa-envelope mr-3"></i> info@gmail.com
+                    <i class="fas fa-envelope mr-3"></i> gottschalt@hotmail.com
                 </p>
                 <p>
-                    <i class="fas fa-phone mr-3"></i> + 01 234 567 88
+                    <i class="fab fa-whatsapp mr-3"></i> (55) 9-9133-4503
                 </p>
                 <p>
-                    <i class="fas fa-print mr-3"></i> + 01 234 567 89
+                    <i class="fas fa-phone-alt mr-3"></i> (55) 9-9180-8121
                 </p>
             </div>
             <!-- Grid column -->
@@ -115,8 +73,8 @@
 
                 <!--Copyright-->
                 <p class="text-center text-md-left">© 2020 Copyright:
-                    <a href="https://mdbootstrap.com/">
-                        <strong> MDBootstrap.com</strong>
+                    <a href="https://www.wernergottschalt.com/">
+                        <strong> wernergottschalt.com</strong>
                     </a>
                 </p>
 
@@ -130,23 +88,33 @@
                 <div class="text-center text-md-right">
                     <ul class="list-unstyled list-inline">
                         <li class="list-inline-item">
-                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1"
+                                href="https://github.com/WernerLuiz92">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1"
+                                href="https://www.facebook.com/werner.gottschalt/">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                                <i class="fab fa-google-plus-g"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1"
+                                href="https://www.linkedin.com/in/werner-gottschalt/">
                                 <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1"
+                                href="https://wa.me/message/M65QOJIMJK6ZB1">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-sm rgba-white-slight mx-1"
+                                href="<?php echo $relpath;?>function/data/dataimport.php">
+                                <i class=" fas fa-database"></i>
                             </a>
                         </li>
                     </ul>
