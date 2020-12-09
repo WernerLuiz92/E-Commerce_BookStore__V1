@@ -1,6 +1,13 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="<?php echo $relpath;?>index.php" style="font-size: 32px;">
-        <img src="<?php echo $relpath;?>assets/logo.png" width="45" height="45" class="d-inline-block align-top" alt=""
+<nav class="navbar navbar-dark primary-color">
+    <a class="navbar-brand" href="<?php echo $relpath;?>index.php">
+        <img src="<?php echo $relpath;?>img/logo.png" height="30" class="d-inline-block align-top" alt="mdb logo">
+        BookStore
+    </a>
+</nav>
+
+<!--nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="<?php// echo $relpath;?>index.php" style="font-size: 32px;">
+        <img src="<?php// echo $relpath;?>assets/logo.png" width="45" height="45" class="d-inline-block align-top" alt=""
             loading="lazy">
         Book Store
     </a>
@@ -38,4 +45,4 @@
             </div>
         </form>
     </div>
-</nav>
+</nav-->
