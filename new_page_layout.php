@@ -1,13 +1,13 @@
-<?php include '_session.php'; ?>
+<?php include /*Este path deve ser definido manualmente*/'_session.php'; ?>
 <?php
-    $page = #;
+    $page = 1;
     $relpath = "";
 
-    include '_conexao.php';
+    include $relpath.'_conexao.php';
 
-    include 'header.php';
-    include 'topbar.php';
-    include 'navbar.php';
+    include $relpath.'header.php';
+    include $relpath.'topbar.php';
+    include $relpath.'navbar.php';
 
 ?>
 
@@ -16,5 +16,5 @@
 </div>
 
 <?php
-    include 'footer.php';
+    include $relpath.'footer.php';
 ?>

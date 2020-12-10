@@ -143,7 +143,23 @@
 <script type="text/javascript" src="<?php echo $relpath;?>js/mdb.min.js"></script>
 
 <!-- Scripts -->
-<script type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+
+    $('.first-button').on('click', function() {
+
+        $('.animated-icon1').toggleClass('open');
+    });
+    $('.second-button').on('click', function() {
+
+        $('.animated-icon2').toggleClass('open');
+    });
+    $('.third-button').on('click', function() {
+
+        $('.animated-icon3').toggleClass('open');
+    });
+});
+</script>
 
 </body>
 

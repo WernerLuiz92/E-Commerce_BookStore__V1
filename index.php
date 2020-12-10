@@ -54,7 +54,7 @@
         <center>
             <div class="row justify-content-around">
                 <?php
-                $sqlNovidades = "SELECT id_bk, tit_bk, preco_bk, capa_bk, author.nome_aut AS 'aut_bk' FROM book, author WHERE book.id_aut_bk = author.id_aut ORDER BY datalanc_bk DESC LIMIT 6";
+                $sqlNovidades = "SELECT id_bk, tit_bk, preco_bk, capa_bk, author.nome_aut AS 'aut_bk' FROM book, author WHERE book.id_aut_bk = author.id_aut ORDER BY datalanc_bk DESC LIMIT 9";
                 $buscaNovidades = mysqli_query($conexao, $sqlNovidades);
 
                 while ($arrayNovidades = mysqli_fetch_array($buscaNovidades)) {
