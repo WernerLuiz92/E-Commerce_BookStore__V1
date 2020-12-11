@@ -54,7 +54,7 @@ if ($fileMoved == 0) {
     foreach ($array as $row) {
         switch ($table) {
             case 1:
-                $sql = "INSERT INTO book (isbn_bk, ean_bk, datalanc_bk, tit_bk, tit_bk_alfa, titorig_bk, id_aut_bk, form_bk, pag_bk, acab_bk, preco_bk, capa_bk, coment1_bk, coment2_bk, coment3_bk, sinopse_bk) VALUES ('".$row["isbn_bk"]."', '".$row["ean_bk"]."', '".$row["datalanc_bk"]."', '".$row["tit_bk"]."', '".$row["tit_bk_alfa"]."', '".$row["titorig_bk"]."', ".$row["id_aut_bk"].", '".$row["form_bk"]."', ".$row["pag_bk"].", '".$row["acab_bk"]."', ".$row["preco_bk"].", '".$row["capa_bk"]."', '".$row["coment1_bk"]."', '".$row["coment2_bk"]."', '".$row["coment3_bk"]."', '".$row["sinopse_bk"]."')";
+                $sql = "INSERT INTO book (isbn_bk, ean_bk, datalanc_bk, tit_bk, tit_bk_alfa, titorig_bk, id_aut_bk, form_bk, pag_bk, aval_bk, acab_bk, preco_bk, capa_bk, coment1_bk, coment2_bk, coment3_bk, sinopse_bk) VALUES ('".$row["isbn_bk"]."', '".$row["ean_bk"]."', '".$row["datalanc_bk"]."', '".$row["tit_bk"]."', '".$row["tit_bk_alfa"]."', '".$row["titorig_bk"]."', ".$row["id_aut_bk"].", '".$row["form_bk"]."', ".$row["pag_bk"].", ".$row["aval_bk"].", '".$row["acab_bk"]."', ".$row["preco_bk"].", '".$row["capa_bk"]."', '".$row["coment1_bk"]."', '".$row["coment2_bk"]."', '".$row["coment3_bk"]."', '".$row["sinopse_bk"]."')";
             break;
             case 2:
                 $sql = "INSERT INTO author (nome_aut, desc_aut, foto_aut) VALUES ('".$row["nome_aut"]."', '".$row["desc_aut"]."', '".$row["foto_aut"]."')";

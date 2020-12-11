@@ -2,6 +2,10 @@
   font-size: 32px;
 }
 
+.checked {
+  color: orange;
+}
+
 /* Icon 1 */
 
 .animated-icon1,
