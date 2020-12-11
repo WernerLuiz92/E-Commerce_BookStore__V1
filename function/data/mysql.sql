@@ -27,7 +27,7 @@ CREATE TABLE `book_store`.`book` (
     `id_aut_bk` int unsigned NOT NULL,
     `form_bk` varchar(75) COLLATE utf8_swedish_ci DEFAULT NULL,
     `pag_bk` int NOT NULL,
-    `aval_bk` decimal(2,2) NOT NULL,
+    `aval_bk` float unsigned NOT NULL,
     `acab_bk` varchar(45) COLLATE utf8_swedish_ci NOT NULL DEFAULT 'Brochura',
     `preco_bk` decimal(10,2) unsigned NOT NULL,
     `capa_bk` varchar(45) COLLATE utf8_swedish_ci NOT NULL,
