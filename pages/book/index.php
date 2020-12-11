@@ -162,23 +162,41 @@
                                 <div class="card-body">
                                     <ul class="list-group">
                                         <li class="list-group-item">
-                                            <div class="md-v-line"></div><i class="fas fa-barcode mr-5"></i>Cras
-                                            justo odio
+                                            <div class="md-v-line"></div><i class="fas fa-pen-nib mr-5"></i><b>Autor:
+                                            </b><?php echo $nome_aut_bk; ?>
                                         </li>
                                         <li class="list-group-item">
-                                            <div class="md-v-line"></div><i class="fas fa-bomb mr-5"></i>Dapibus ac
-                                            facilisis in
+                                            <div class="md-v-line"></div><i
+                                                class="far fa-calendar-alt mr-5"></i><b>Lançamento:
+                                            </b><?php echo $datalanc_bk; ?>
                                         </li>
                                         <li class="list-group-item">
-                                            <div class="md-v-line"></div><i class="fas fa-code mr-5"></i>Morbi leo risus
+                                            <div class="md-v-line"></div><i class="fas fa-book mr-5"></i><b>Título
+                                                original:
+                                            </b><?php echo $titorig_bk; ?>
                                         </li>
                                         <li class="list-group-item">
-                                            <div class="md-v-line"></div><i class="far fa-gem mr-5"></i>Porta ac
-                                            consectetur ac
+                                            <div class="md-v-line"></div><i
+                                                class="fas fa-expand-arrows-alt mr-5"></i></i><b>Formato:
+                                            </b><?php echo $form_bk; ?>
                                         </li>
                                         <li class="list-group-item">
-                                            <div class="md-v-line"></div><i class="fas fa-cogs mr-5"></i>Vestibulum at
-                                            eros
+                                            <div class="md-v-line"></div><i class="far fa-file-alt mr-5"></i><b>Número
+                                                de
+                                                páginas:
+                                            </b><?php echo $pag_bk; ?>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="md-v-line"></div><i class="fas fa-broom mr-5"></i><b>Acabamento:
+                                            </b><?php echo $acab_bk; ?>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="md-v-line"></div><i class="fas fa-tag mr-5"></i><b>ISBN:
+                                            </b><?php echo $isbn_bk; ?>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="md-v-line"></div><i class="fas fa-barcode mr-5"></i><b>EAN:
+                                            </b><?php echo $ean_bk; ?>
                                         </li>
                                     </ul>
                                 </div>
