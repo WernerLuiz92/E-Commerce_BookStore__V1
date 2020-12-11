@@ -7,6 +7,22 @@
         aria-label="Toggle navigation">
         <a class="navbar-brand" href="#">Menu</a>
     </button>
+    <section class="text-white">
+        <!-- Breadcrumb>
+        <div class="container mt-1">
+
+            <nav aria-label="nav py-4 breadcrumb">
+                <ol class="breadcrumb d-inline-flex pl-0 pt-0">
+                    <li class="breadcrumb-item"><a class="text-white" href="list.php">BookStore</a></li>
+                    <li class="breadcrumb-item active"><a class="text-white" href="list.php">Livros</a></li>
+                    <li class="breadcrumb-item">Livro Atual</li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Generos</a></li>
+                </ol>
+            </nav>
+
+        </div>
+        <!-- /Breadcrumb-->
+    </section>
 
     <!-- Login -->
     <ul class="navbar-nav ml-auto nav-flex-icons">
