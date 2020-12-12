@@ -1,6 +1,6 @@
 <?php include '_session.php'; ?>
 <?php
-    $page = 8;
+    $page = 4;
     $relpath = "";
 
     include '_conexao.php';

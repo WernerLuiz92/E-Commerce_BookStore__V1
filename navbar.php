@@ -62,16 +62,16 @@
 
         <!-- Links -->
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="<?php echo $relpath;?>pages/book/index.php">Produtos</a>
+            <li class="nav-item <?php if ($page == 1){echo 'active';} ?>">
+                <a class="nav-link" href="<?php echo $relpath;?>pages/book/list.php#books">Livros</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="<?php echo $relpath;?>pages/genre/index.php">Gêneros</a>
+            <li class="nav-item <?php if ($page == 2){echo 'active';} ?>">
+                <a class="nav-link" href="<?php echo $relpath;?>pages/genre/list.php">Gêneros</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="<?php echo $relpath;?>pages/author/index.php">Autores</a>
+            <li class="nav-item <?php if ($page == 3){echo 'active';} ?>">
+                <a class="nav-link" href="<?php echo $relpath;?>pages/author/list.php">Autores</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item <?php if ($page == 4){echo 'active';} ?>">
                 <a class="nav-link" href="<?php echo $relpath;?>aboutme.php">Sobre nós!</a>
             </li>
         </ul>
