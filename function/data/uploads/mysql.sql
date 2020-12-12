@@ -43,3 +43,18 @@ CREATE TABLE `book_store`.`genre_book` (
     `id_bk` int unsigned NOT NULL,
     PRIMARY KEY (`id_gen`,`id_bk`)
 );
+
+ALTER TABLE `book_store`.`genre_book` 
+    ADD CONSTRAINT `genre_book_genre`
+        FOREIGN KEY (`id_gen`)
+        REFERENCES `book_store`.`genre` (`id_gen`);
+
+ALTER TABLE `book_store`.`genre_book` 
+    ADD CONSTRAINT `genre_book_book`
+        FOREIGN KEY (`id_bk`)
+        REFERENCES `book_store`.`book` (`id_bk`);
+
+ALTER TABLE `book_store`.`book` 
+    ADD CONSTRAINT `book_author`
+        FOREIGN KEY (`id_aut_bk`)
+        REFERENCES `book_store`.`author` (`id_aut`);
