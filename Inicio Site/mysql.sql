@@ -1,7 +1,5 @@
 CREATE DATABASE `book_store` DEFAULT CHARACTER SET utf8 COLLATE utf8_swedish_ci;
 
-CREATE USER 'bookstore_admin'@'localhost' IDENTIFIED VIA mysql_native_password USING 'bookstore2020_123';GRANT ALL PRIVILEGES ON *.* TO 'bookstore_admin'@'localhost' REQUIRE NONE WITH GRANT OPTION MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
-
 CREATE TABLE `book_store`.`genre` (
     `id_gen` int unsigned NOT NULL AUTO_INCREMENT,
     `nome_gen` varchar(45) COLLATE utf8_swedish_ci NOT NULL,
